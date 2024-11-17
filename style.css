@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+}
+
+.card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Forms */
+input {
+    border-radius: 5px;
+}
+
+#visitsContainer .form-label {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    background: linear-gradient(90deg, #333, #555);
+    color: #ddd;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Adjustments for small devices */
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .card-header {
+        font-size: 1rem;
+    }
+}
